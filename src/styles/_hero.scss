@@ -24,6 +24,8 @@
 
     &__title {
         font-size: 40px;
+        font-weight: 700;
+        font-family: "Dancing Script", cursive;
     }   
 
     &__text {
@@ -31,11 +33,14 @@
         margin-bottom: 20px; 
         font-size: 30px;
         line-height: 56px;
+        font-weight: 700;
+        font-family: "Dancing Script", cursive;
     }
 
     &__countdown {
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 80px;
     }
 
     @media (max-width: 640px) {

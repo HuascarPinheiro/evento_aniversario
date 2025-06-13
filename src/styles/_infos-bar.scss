@@ -1,0 +1,45 @@
+.infos-bar {
+    margin-top: 80px;
+    padding: 16px 42px;
+    background-color: #1B6CA7;
+    border-radius: 10px;
+    opacity: 0.90;
+    display: flex;
+    justify-content: space-between;
+
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: #fff;
+
+            b {
+                color: #fff;
+                font-size: 16px;
+                display: block;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+        opacity: 0.90;
+        display: block;
+
+        &__infos {
+            display: block;
+
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__infos {
+            gap: 16px
+        }
+    }
+}
