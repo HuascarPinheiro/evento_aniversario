@@ -1,3 +1,7 @@
+    AOS.init();
+
+
+
 const dataDoAniversario = new Date ("Apr 19, 2026 08:00:00");
 const timeStampDoAniversario = dataDoAniversario.getTime();
 

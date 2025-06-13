@@ -11,7 +11,7 @@
     color: #fff;
 
     &:hover {
-        background-color: darken(#89223B, 10%);
+        background-color: color.adjust(#89223B, $lightness: -10%);
         cursor: pointer;
     }
 
@@ -20,7 +20,8 @@
         width: 100%;
     }
 
-    @media (max-width: 640px) {
-        
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
     }
 }
