@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <h1>Olá</h1>
-    <img src="./imagens/bolo_aniversario.jpg" alt="">
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__title">
+                <b>É hora de comemorar!</b>
+            </h1>
+            <p class="hero__text">
+                Você está mais que convidado para celebrar comigo mais um ano de vida!
+                Vai ter risada, música, comida boa e, claro, muita alegria! 
+            </p>
+            <p class="hero__countdown">
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"></li>
+                    <li class="infos-bar__infos__item"></li>
+                    <li class="infos-bar__infos__item"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <script src="scripts/main.js"></script>
 </body>
